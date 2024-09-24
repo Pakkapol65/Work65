@@ -1,0 +1,59 @@
+body{
+    background: url('https://t3.ftcdn.net/jpg/03/23/88/08/360_F_323880864_TPsH5ropjEBo1ViILJmcFHJqsBzorxUB.jpg');
+}
+header {
+    background-color: rgba(59, 58, 58, 0.9);
+    border-radius: 180px;
+    padding: 5px;
+}
+p{
+    font-size: 20px;
+}
+h1{
+    color: #fff;
+    text-align: center;
+    font-size: 69px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.box {
+    width: 90%;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    display: flex;
+}
+.buttonbox {
+    background-color:#4DFFFF;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    width: 200px;
+}
+button{
+    background-color:#4DFFFF;
+    color: #ffffff;
+    border: none;
+    padding: 15px 20px;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: left;
+    width: 200px;
+}
+button:hover {
+    background-color: rgba(255, 0, 255, 0.9);
+}
+button:active{
+    background-color: rgba(129, 0, 129, 0.9);
+}
+.imglayout{
+    display: Gallery; 
+    width: 400px; 
+    padding: 20px;
+    
+}
+.image-text-l {
+    display: flex;
+    gap: 20px;
+}
+li{
+    font-size: 20px;
+}
