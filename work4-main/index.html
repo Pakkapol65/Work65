@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        width: 750px;
+        height: auto;
+        background-color: #fdadcd;
+        position: relative;
+        border-radius: 20px 20px 20px 20px;
+      }
+    .h{
+        width: 100%;
+        min-height: 80px;
+        height: auto;
+        background-color: #d84141;
+        position:relative;
+        overflow-wrap: break-word;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .m{
+        width:150px;
+        min-height:400px;
+        height: 700px;
+        float:left;
+        background-color: 	#000000;
+        position: relative;
+    }
+    .m1:hover{
+        border: solid white;
+        background-color:#d527f8
+        
+    }
+    p{
+        font-size: 30px;
+        text-align: center;
+        color: white;
+    }
+    .b{
+        width: 530px;
+        min-height: 300px;
+        height: auto;
+        float: left;
+        background-color: 	#732424;
+        position: relative;
+        top: 20px;
+        margin-left: 20px;
+        overflow-wrap: break-word;
+        border: solid white;
+
+    }
+    .n{
+        width: 250px;
+        min-height: 200px;
+        height: auto;
+        float: left;
+        margin: 22px;
+        background-color: #8c6723;
+        position: relative;
+        margin-top: 50px;
+        overflow-wrap: break-word;
+        border: solid white;
+    }
+    .t{
+        width: 250px;
+        min-height: 200px;
+        height: auto;
+        float: right;
+        margin: 22px;
+        background-color: #ffe5b3;
+        position: relative;
+        margin-top: 50px;
+        overflow-wrap: break-word;
+        border: solid white;
+    }
+    .f{
+        min-height: 60px;
+        height: auto;
+        width: 100%;
+        background-color: 	#ffcba0;
+        position: relative;
+        overflow: hidden;
+        overflow-wrap: break-word;
+        border-radius: 0px 0px 20px 20px;
+    }
+    body{
+        margin-left: 30%;background-color: grey;
+
+    }
+    @media  (max-width: 1000px) {
+        body{
+            margin-left: 10%;
+        }
+
+        .box{
+            width: 100%;
+            height: 700px;
+        }
+        .m{
+            width: 20%;
+            height: 600px;
+        }
+        .f{
+            width: 100%;
+            height: 0%;
+        }
+        .h{
+            width: 100%;
+            height: 80px;
+        }
+        .m1{
+            width: 100%;
+        }
+        .b{
+            width: 70%;
+            height: 300px;
+        }
+        .n{
+            width: 25%;
+        }
+        .t{
+            width: 23%;
+        }
+
+    }
+</style>
+<body>
+    <div class="box">
+        <div class="h"><p>Header</p></div>
+        <div class="m">
+            <div class="m1"><p>1</p></div>
+            <div class="m1"><p>2</p></div>
+            <div class="m1"><p>3</p></div>
+        </div>
+        <div class="b"><p>Benner</p></div>
+        <div class="n"><p>News</p></div>
+        <div class="t"><p>To do List</p></div>
+        <div class="f"><p>Footer</p></div>
+    </div>
+</body>
+</html>
